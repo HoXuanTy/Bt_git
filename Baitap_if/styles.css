@@ -1,0 +1,25 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(250, 193, 8, 0.979);
+    width: 50%;
+    height: 300px;
+   
+    
+   
+}
+
+.choose2{
+   margin-top: 10px;
+}
+.Inputmoney{
+    margin-top: 10px;
+}
