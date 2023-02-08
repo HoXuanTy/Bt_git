@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+       <p>
+            <label>Name
+            <input type="text" id="name" >
+             </label> 
+        </p> 
+        <p>
+            <label>
+            Ten cua ong do la <input type="text" id="hienthi">
+            </label>  
+        </p>
+        <input type="button" value="OK" onclick="myfunction()">
+    </form>
+    <script>
+        mang=[];
+        function myfunction(){
+            var  a= document.getElementById("name").value;
+            mang.push(a);
+            document.getElementById("hienthi").value=mang;
+
+        }
+
+    </script>
+</body>
+</html>

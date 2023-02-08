@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/baivn1.css">
+    <title>Document</title>
+</head>
+<hr>
+    <h1>Thêm sản phẩm</h1><hr/>
+    <div class="container">
+        <form >
+            <label>Danh mục sản phẩm.</label><br>
+            <select >
+                <option id="category" value="dtdd">Điện thoại di động </option>
+            </select><br>
+            <label >Thông tin.</label><br>
+            <select >
+                <option id="infmtion" value="spnb">Sản phẩm nổi bật</option>
+            </select><br>
+            <input type="text" placeholder="Tên sản phẩm" id="name"><br>
+            <input type="text" placeholder="Giá sản phẩm" id="price"><br>
+            <input type="text" placeholder="Giá cũ" id="Olprice"><br>
+
+            <p>Thêm sản phẩm <strong style="color: red;">*Bắt buộc</strong></p>
+            <input type="file"><br>
+           
+            <input type="button" onclick="AddItem()"  value="Đồng ý thêm">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Tên Sản Phẩm</th>
+                    <th>Giá</th>
+                    <th>Giá cũ</th>
+                    <th>Danh mục</th>
+                    <th>Thông tin</th>
+                    <th>Hình ảnh</th>
+                    <th>Sửa</th>
+                    <th>Xóa</th>
+                </tr>
+                <tbody></tbody>
+            </thead>
+        </table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+table, td, th {
+    border: 1px solid;
+  }
+table {
+    margin-top: 20px;
+    width: 70%;
+    border-collapse: collapse;
+  }

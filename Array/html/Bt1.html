@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Bt1.css">
+    <script src="../js/bt1.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form class="frm">
+            <label >Fullname_Customer 
+                <input class="fInput" type="text" name="fname" id="fname">
+            </label>
+            <label >
+                Id_pro
+                <input class="fInput" type="text" name="idp" id="idp">
+            </label>
+            <label >
+                Name_pro
+                <input class="fInput" type="text" name="pname"  id="pname">
+            </label>
+            <label >
+                Quantity_pro
+                <input class="fInput" type="text"  name="qty"  id="qty">
+            </label>
+            <label >Price_pro
+                <input class="fInput" type="text"  name="pri_p" id="pri_p">
+            </label>
+
+
+            <input class="bton" type="button" value="Save" onclick="save()">
+            <input class="bton" type="button" value="Show" onclick="show()">
+            <input class="bton" type="button" value="Reset" onclick="reset()">
+       
+        </form> <br> <br/>
+        
+        <table class="tbl">
+            <thead>
+                <tr>
+                    <th>Auto_increment</th>
+                    <th>Fullname_Customer</th>
+                    <th>Id_pro</th>
+                    <th>Name_pro</th>
+                    <th>Quantity_pro</th>
+                    <th>Price_pro</th>
+                    <th>Discount</th>
+                    <th>Amount</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="htb"></tbody>
+        </table>
+       
+    </div>
+
+</body>
+</html>

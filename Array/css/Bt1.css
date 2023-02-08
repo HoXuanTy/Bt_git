@@ -1,0 +1,27 @@
+label{
+    display: block;
+}
+
+.tbl{
+ border: 1px solid black;
+}
+th{
+    border: 2px solid rgba(255, 255, 255, 0.932); 
+}
+.container{
+ margin-top: 10rem;
+ margin-left: 50px;
+ padding-left: 10px;
+ background-color: rgb(20, 202, 202);
+ height: 300px;
+}
+
+.fInput{
+    margin-top: 10px;
+   
+}
+
+.bton{
+    margin-top: 10px;
+    color: red;
+}
